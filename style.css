@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(120,3,143);
+background: linear-gradient(90deg, rgba(120,3,143,0.8707264875754333) 3%, rgba(221,23,113,0.7863247700226612) 51%, rgba(120,3,143,1) 97%);
+}
+
+.game-container {
+    position: relative;
+    text-align: center; /* Center the button */
+}
+
+.play-area {
+    position: relative;
+    width: 300px; /* Adjust the size as needed */
+    height: 500px; /* Adjust the size as needed */
+    box-shadow: 5px 5px 5px #443e52;
+    overflow: hidden;
+    border: 5px outset #3498db; /* Attractive border color */
+    border-radius: 15px; /* Border radius for a rounded look */
+    margin-bottom: 15px; /* Add space between play area and button */
+}
+
+.background-layer,
+.top-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#nextButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0088; /* Green color for the button */
+    color: #fff;
+    border: 3px outset #5597ff;
+    box-shadow: 5px 5px 5px #443e52;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#exitButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0088; /* Green color for the button */
+    color: #fff;
+    border: 3px outset #5597ff;
+    box-shadow: 5px 5px 5px #443e52;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+
+h2{
+				color: #ff0088;
+				background: #ffffff;
+				border: 3px outset #5597ff;
+				border-radius: 10px;
+}
